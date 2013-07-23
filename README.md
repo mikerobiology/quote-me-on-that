@@ -8,7 +8,11 @@ Each item on spreadsheet has a quote, which has an expiration date.
 Needs:
 ------
 * ability to add new quotes with all related fields
-* sort quotes by vendors
+  * Catalog #
+  * Item Description
+  * Vendor
+  * Quote
+  * Expiration Date
 
 
 Wants:
