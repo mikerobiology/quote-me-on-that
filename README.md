@@ -11,6 +11,9 @@ Needs:
   * Catalog #
   * Item Description
   * Vendor
+  * Unit List Price
+  * Discount
+  * Extended Net Price
   * Quote
   * Expiration Date
 
