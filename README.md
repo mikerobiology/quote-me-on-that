@@ -1,9 +1,9 @@
 quote-me-on-that
 ================
 
-A program to store/edit vendor quotes on a spreadsheet.
+A program to store/edit vendor quotes on a spreadsheet or django database.
 
-Each item on spreadsheet has a quote, which has an expiration date.
+Each item in spreadsheet/database has a quote, which has an expiration date.
 
 Needs:
 ------
