@@ -2,6 +2,8 @@
 
 prompt = '> '
 
+print "This will add a new quote to the spreadsheet."
+
 print "What is the Catalog Number?"
 catnumb = raw_input(prompt)
 
@@ -14,14 +16,31 @@ vendor = raw_input(prompt)
 print "What is the Quote?"
 quote = raw_input(prompt)
 
+print "What is the List Price of the item?"
+list_price = raw_input(prompt)
+
+print "What is the Discounted Amount?"
+discount = raw_input(prompt)
+
+print "What is the Net Price?"
+net_price = raw_input(prompt)
+
 print "When is the Expiration Date(DD/MM/YY)?"
 expdate = raw_input(prompt)
 
-print "So the %r %r from %r has the quote '%r' until %r?" % (catnumb,
-  itdesc, vendor, quote, expdate)
+print "Here is the quote you have entered."
+print "Catalog Number: %r" % catnumb
+print "Item Description: %r" % itdesc
+print "Vendor: %r" % vendor
+print "Quote: %r" % quote
+print "List Price: %r" % list_price
+print "Discount: %r" % discount
+print "Net Price: %r" % net_price
+print "Expiration Date: %r" % expdate
 
-answer = raw_input("Does this look right?  Enter Y or N.")
+print "Does this look right?  Enter Y or N."
+answer = raw_input(prompt)
 if answer == "y" or answer == "Y":
 	print("Adding to the spreadsheet...")
-else # NEED A "WHILE LOOP" TO RETURN TO TOP IF "NO"
 
+# Need a 'while loop' if want this to return to top is answer "N/n"
