@@ -23,4 +23,5 @@ Wants:
 * warning for impending quote expirations
 * Auto-inactive when quote expires
 * Ability to interface with "Contacts" app
+* Ability to apply discount as %
 * automatic sorting of quotes based on expirations (done)
