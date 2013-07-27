@@ -6,7 +6,7 @@ class QuoteAdmin(admin.ModelAdmin):
 	search_fields = ['item_description', 'vendor', 'catalog_number', 'quote_number']
 	list_display_links = ['item_description', 'vendor', 'catalog_number', 'quote_number']
 	ordering = ['item_description', 'vendor', 'quote_number', 'quote_expires']
-	list_filter = ['active']
+	list_filter = ['expired']
 	# add a list_filter to filter out expired quotes?
 
 admin.site.register(Quote, QuoteAdmin)
