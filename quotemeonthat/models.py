@@ -30,3 +30,13 @@ class Quote(models.Model):
 	#	today = datetime.date.today()
 	#	if self.quote_expires and self.quote_expires < today:
 	#		active=False
+
+	# Try this, too.
+	# def _expired(self):
+	# 	today = datetime.date.today()
+	#	if self.quote_expires and self.quote_expires < today:
+	#		return False
+	#	if self.quote_expires and self.quote_expires > today:
+	#		return True
+	# expired = property(_expired)
+	##  OR expired = models.BooleanField(property(_expired))
