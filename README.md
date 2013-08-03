@@ -22,8 +22,10 @@ Wants:
 ------
 * Warning for impending quote expirations
 * Auto-inactive when quote expires
+ * Make 'active/expired' hidden, not selectable to edit
 * Interface with "Contacts" app
+ * Able to choose Contact from dropdown list
 * Add comments
 * Attach files
 * Apply discount as % (calculator finished, but need JavaScript or JQuery to enable)
-* automatic sorting of quotes based on expirations (done)
+* Automatic sorting of quotes based on expirations (done)
