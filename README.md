@@ -22,7 +22,7 @@ Wants:
 ------
 * Warning for impending quote expirations
 * Auto-inactive when quote expires
- * Make 'active/expired' hidden, not selectable to edit
+ * Make 'active/expired' hidden, not selectable to edit (done, but not functional)
 * Interface with "Contacts" app
  * Able to choose Contact from dropdown list
 * Add comments
