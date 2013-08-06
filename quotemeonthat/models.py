@@ -22,16 +22,17 @@ class Quote(models.Model):
 			return False
 		if self.quote_expires and self.quote_expires > today:
 			return True
-	expired = models.BooleanField()
+	# Making this editable=False hides it from 
+	expired = models.BooleanField(editable = False)
 
-	# What about THIS?! And make it inside hidden() or something
-	expired = models.BooleanField(
-		today = datetime.date.today()
-		if self.quote_expires < today:
-			return False
-		elif self.quote_expires > today:
-			return True
-		)
+
+	# expired = models.BooleanField(
+	#	today = datetime.date.today()
+	#	if self.quote_expires < today:
+	#		return False
+	#	elif self.quote_expires > today:
+	#		return True
+	#	)
 	
 	# This might work?  Maybe?
 	# active = models.BooleanField(default=True)

@@ -1,4 +1,5 @@
-# Needs Cat#, Item Desc, Vendor, Quote, Exp Dat
+# Django model has replaced this, but don't toss it.
+# Continuing to work on it for testing/educational purposes.
 
 prompt = '> '
 
