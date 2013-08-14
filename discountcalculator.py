@@ -15,3 +15,6 @@ print ("%.2f" % net_price)
 
 # Unable to do this live in django admin.
 # Need JQuery or JaveScript to implement.
+
+# Maybe edit code to show calculations?
+# Have it list "price - discount = net price"
