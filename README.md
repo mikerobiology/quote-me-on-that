@@ -29,3 +29,7 @@ Wants:
 * Attach files
 * Apply discount as % (calculator finished, but need JavaScript or JQuery to enable)
 * Automatic sorting of quotes based on expirations (done)
+
+
+Lab Meeting Suggestions:
+------
